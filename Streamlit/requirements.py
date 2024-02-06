@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+datetime
+plotly_express
+plotly.graphic_objects
+plotly.subplots

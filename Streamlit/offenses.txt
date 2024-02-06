@@ -1,0 +1,57 @@
+Arson: 200
+Aggravated Assault: 13A
+Simple Assault: 13B
+Intimidation: 13C
+Bribery: 510
+Burglary/Breaking & Entering: 220
+Counterfeiting/Forgery: 250
+Destruction/Damage/Vandalism of Property: 290
+Drug/Narcotic Violations: 35A
+Drug Equipment Violations: 35B
+Embezzlement: 270
+Extortion/Blackmail: 210
+False Pretenses/Swindle/Confidence Game: 26A
+Credit Card/Automated Teller Machine Fraud: 26B
+Impersonation: 26C
+Welfare Fraud: 26D
+Wire Fraud: 26E
+Betting/Wagering: 39A
+Operating/Promoting/Assisting Gambling: 39B
+Gambling Equipment Violations: 39C
+Sports Tampering: 39D
+Murder & Nonnegligent Manslaughter: 09A
+Negligent Manslaughter: 09B
+Justifiable Homicide: 09C
+Kidnapping/Abduction: 100
+Pocket-picking: 23A
+Purse-snatching: 23B
+Shoplifting: 23C
+Theft From Building: 23D
+Theft From Coin-Operated Machine or Device: 23E
+Theft From Motor Vehicle: 23F
+Theft of Motor Vehicle Parts or Accessories: 23G
+All Other Larceny: 23H
+Motor Vehicle Theft: 240
+Pornography/Obscene Material: 370
+Prostitution: 40A
+Assisting or Promoting Prostitution: 40B
+Robbery: 120
+Forcible Rape: 11A
+Forcible Sodomy: 11B
+Sexual Assault With An Object: 11C
+Forcible Fondling: 11D
+Incest: 36A
+Statutory Rape: 36B
+Stolen Property Offenses: 280
+Weapon Law Violations: 520
+Bad Checks: 90
+Curfew/Loitering/Vagrancy Violations: 90B
+Disorderly Conduct: 90C
+Driving Under the Influence: 90D
+Drunkenness: 90E
+Family Offenses, Nonviolent: 90F
+Liquor Law Violations: 90G
+Peeping Tom: 90H
+Runaway: 90I
+Trespass of Real Property: 90J
+All Other Offenses: 90Z
