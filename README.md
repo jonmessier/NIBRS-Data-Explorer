@@ -12,6 +12,13 @@ The web applet was developed using Streamlit.io to create an interactive data ex
 - [ ] 2/13/2024 - Documentation/Readme
 - [ ] 
 
+**Work in Progress**
+- [ ] Explore machine learning capabilities
+- [ ] Add "ORI"/"County" search features
+- [ ] Add Mapping tools to Streamlit
+  - [ ] Show hotspots based on ORI
+  
+
 
 ---
 ## Streamlit App
