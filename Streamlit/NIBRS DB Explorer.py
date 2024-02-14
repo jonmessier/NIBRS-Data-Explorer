@@ -41,7 +41,7 @@ def main():
     st.write("""
              The National Incident-Based Reporting System is an incident-based reporting system used by law enforcement agencies in the United States for collecting and reporting data on crimes. The following reporting tool is generated from data available at the [FBI Crime Data Explorer](https://cde.ucr.cjis.gov).  This tool allows the user to explore Minnesota NIBRS data from 2018-2022 to look at the details of incidents, offenses, and offenders. 
              
-             **Use the side menu to select the year to explore**. In this version of the applet, no database is needed as the DB queries are written to '.csv' files.  If you would like to more/other information, please feel free to fork this repository on my github and/or reach out for customization.
+             **Use the side menu** to select the year to explore. In this version of the applet, no database is needed as the DB queries are written to '.csv' files.  If you would like to more/other information, please feel free to fork this repository on my github and/or reach out for customization.
              """)
     st.write('''
              # Choose the Offense type to explore
