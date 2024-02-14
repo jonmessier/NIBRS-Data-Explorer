@@ -9,6 +9,7 @@ The web applet was developed using Streamlit.io to create an interactive data ex
 ## Streamlit App
 [Streamlit App](https://mn-nibrs.streamlit.app/)
 
+UPDATE - 2/13/2024 : Streamlit cloud is a bit finicky with syntax when running applets.  Small changes in the Github repo to the *NIBRS_DB_Explorer.py* have been crashing the cloud version, but seem to run fine locally.  Work in progress to minimize the cloud version uptime.
 
 ---
 ## Exploratory Analysis
@@ -21,7 +22,7 @@ Unlike the streamlit app, the EA notebook includes queries that combine 2018-202
 
 ![Motor Vehicle Theft](/SupportingDocs/motor%20vehicle%20theft.png)
 
-![Top Ten Offense](/SupportingDocs/top%20ten%20offenses.png)
+![Top Ten Offense](SupportingDocs/top%2010%20offenses.png)
 
 
 
