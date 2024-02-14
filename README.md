@@ -17,9 +17,11 @@ The web applet was developed using Streamlit.io to create an interactive data ex
 Use this jupyter-stle notebook to test out exploratory analysis before deploying via streamlit.  Because the data is cumbersome, I run a local version of the MN 2018-2022 data as a PostGRE SQL database. 
 
 ### Concatenated data
-Unlike the streamlit app, the EA notebook includes queries that combine 2018-2022 data. This data gives us a better understanding of long term trends in offenses.  In addition to the raw data, I use a 30-day rolling average to smooth the day to day noise. Graphs can include both noisy and smoothed data as needed
+Unlike the streamlit app, the EA notebook includes queries that combine 2018-2022 data. This data gives us a better understanding of long term trends in offenses.  In addition to the raw data, I use a 30-day rolling average to smooth the day to day noise. Graphs can include both noisy and smoothed data as needed.  Using the rolling average we can compare different offense in a much cleaner way as shown below.
 
-![png]("/SupportingDocs/motor vehicle theft.png")
+![Motor Vehicle Theft](/SupportingDocs/motor%20vehicle%20theft.png)
+
+![Top Ten Offense](/SupportingDocs/top%20ten%20offenses.png)
 
 
 
