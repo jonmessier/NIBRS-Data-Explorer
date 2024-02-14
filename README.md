@@ -19,7 +19,7 @@ Use this jupyter-stle notebook to test out exploratory analysis before deploying
 ### Concatenated data
 Unlike the streamlit app, the EA notebook includes queries that combine 2018-2022 data. This data gives us a better understanding of long term trends in offenses.  In addition to the raw data, I use a 30-day rolling average to smooth the day to day noise. Graphs can include both noisy and smoothed data as needed
 
-![png]("\SupportingDocs\motor vehicle theft.png")
+![png]("/SupportingDocs/motor vehicle theft.png")
 
 
 
