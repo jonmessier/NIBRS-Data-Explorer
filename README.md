@@ -5,6 +5,14 @@ The National Incident-Based Reporting System is an incident-based reporting syst
 
 The web applet was developed using Streamlit.io to create an interactive data exploration experience.  Streamlit offers a variety of interactive tools to explore the immense NIBRS data set.  I will continue to develop the web applet as I explore the data.  If there are features you would like to see, please let me know.
 
+**Timeline of development**
+- [x] 1/20/2024 - Gather MN 2018-2022 data locally for analysis.  Explore with Pg4admin POSTGRE SQL workbench
+- [x] 1/29/2024 - Generate basic streamlit application to show annual offense trends 
+- [x] 2/4/2024 - Exploratory Analysis with jupyter style notebook for ease of use
+- [ ] 2/13/2024 - Documentation/Readme
+- [ ] 
+
+
 ---
 ## Streamlit App
 [Streamlit App](https://mn-nibrs.streamlit.app/)
