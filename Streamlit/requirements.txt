@@ -3,6 +3,4 @@ pandas
 numpy
 datetime
 plotly
-plotly_express
 
-plotly.subplots
