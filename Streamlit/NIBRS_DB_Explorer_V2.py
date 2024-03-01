@@ -24,6 +24,7 @@ with tab_annual:
     #Load the annual data into a dataframe
     if "annual" not in st.session_state:
         st.session_state.annual = pd.DataFrame()
+        
         filename = f"\Data\MN{st.session_state.year} NIBRS Report data.csv"
         st.session_state.annual = pd.read_csv(filename)
 
