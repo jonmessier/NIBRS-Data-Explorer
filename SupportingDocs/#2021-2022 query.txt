@@ -1,0 +1,35 @@
+#2021-2022 query
+q=  """
+    select ni.incident_date, ni.incident_id, a.ncic_agency_name, ot.offense_name, ot.offense_code
+    from nibrs_incident ni
+    Right join nibrs_offense no on ni.incident_id = no.incident_id
+    join agencies a on ni.agency_id = a.agency_id
+    join nibrs_offense_type ot on no.offense_code = ot.offense_code
+    """
+
+mn2022 = queryDB(db_name="MN2022", query=q)
+mn2021 = queryDB(db_name="MN2021", query=q)
+
+# The scehma changes dates<2021
+q = """
+    select ni.incident_date, ni.incident_id, a.ncic_agency_name, ot.offense_name, ot.offense_code
+    from nibrs_incident ni
+    Right join nibrs_offense no on ni.incident_id = no.incident_id
+    join agencies a on ni.agency_id = a.agency_id
+    join nibrs_offense_type ot on no.offense_type_id = ot.offense_type_id
+    """
+mn2020 = queryDB(db_name="MN2020", query=q)
+mn2019 = queryDB(db_name="MN2019", query=q)
+mn2018 = queryDB(db_name="MN2018", query=q)
+
+df = pd.concat([mn2018, mn2019, mn2020, mn2021, mn2022])
+print(df.shape)
+
+trend = df[df["offense_code"]=="240"].groupby("incident_date")["incident_id"].count()
+fig, ax = plt.subplots(figsize=(9,6))
+sns.lineplot(data = trend)
+ax.set(xlabel="Date",ylabel="Incident Count",title="Daily Car thefts")
+#plt.axhline(trend.mean(), color='red')
+
+
+trends = df.groupby(["offense_name","incident_date"])["incident_id"].count().unstack()
