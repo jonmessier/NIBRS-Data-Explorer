@@ -30,7 +30,7 @@ with tab_annual:
 
     #Get the list of offense_names
     offenses = {}
-    with open("offenses.txt", "r") as file:
+    with open("./Streamlit/offenses.txt", "r") as file:
         for line in file:
             offense, code = line.strip().split(": ")
             offenses[offense] = code
