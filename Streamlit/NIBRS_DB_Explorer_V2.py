@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import datetime as datetime
 
 def loaddata():
-    filename = f'Data\MN{st.session_state.year} NIBRS Report data.csv'
+    filename = f'./NIBRS-Data-Explorer/Data/MN{st.session_state.year} NIBRS Report data.csv'
     st.session_state.df = pd.read_csv(filename)
 
 
