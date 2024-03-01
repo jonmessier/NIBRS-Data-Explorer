@@ -25,7 +25,7 @@ with tab_annual:
     if "annual" not in st.session_state:
         st.session_state.annual = pd.DataFrame()
         
-        filename = f"./Data/MN{st.session_state.year} NIBRS Report data.csv"
+        filename = f"./NIBRS-Data-Explorer/Data/MN{st.session_state.year} NIBRS Report data.csv"
         st.session_state.annual = pd.read_csv(filename)
 
     #Get the list of offense_names
@@ -139,7 +139,7 @@ with tab_trend:
     #Load the trend data
     if "trends" not in st.session_state:
         trends = pd.DataFrame()
-        filename = f'./Data/MN NIBRS Offense Trend.csv'
+        filename = f'./NIBRS-Data-Explorer/Data/MN NIBRS Offense Trend.csv'
         st.session_state.trends = pd.read_csv(filename)
         st.session_state.trends.set_index("incident_date", inplace=True)
 
